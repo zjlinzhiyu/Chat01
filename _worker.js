@@ -3,7 +3,7 @@ export default {
     const url = new URL("https://api.openai.com/v1/chat/completions");
     const myHeaders = {
       "Authorization": "Bearer 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",
-      "Content-Type': 'application/json"
+      "Content-Type”: “application/json"
     };
       
     // openai is already set all CORS heasders 
